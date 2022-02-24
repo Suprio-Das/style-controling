@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-Cap Dom Manipulation</title>
+    <style>
+        #author-info,#owner-delete{
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="friend-container">
+        <div class="friend">
+            <h3 class="friend-name">Friend-1</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="friend">
+            <h3 class="friend-name">Friend-2</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="friend">
+            <h3 class="friend-name">Friend-3</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="friend">
+            <h3 class="friend-name">Friend-4</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <div>
+        <p id="author-info">Author: Suprio Das</p>
+        <button id="owner-delete">Hide</button>
+    </div>
+    <div>
+        <h3>Styles Control room</h3>
+        <button id="add-border">Add Border</button>
+        <button onclick="addBackgroundColor()">Add Background</button>
+        <button id="add-friend">Add Friend</button>
+        <button id="color-friend-name">Color Friend Name</button>
+        <button id="owner">Owner</button>
+        <button id="padding-btn">Give Padding</button>
+        <button id="margin-btn">Give Margin</button>
+        <button id="radius-btn">Give Border Radius</button>
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>
